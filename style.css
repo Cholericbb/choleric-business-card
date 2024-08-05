@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.business-card {
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFD700; /* Gold color for the brand name */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info p {
+    color: #ADD8E6; /* Light blue for contact information */
+    margin: 5px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    filter: invert(100%); /* Invert colors to make the icons white */
+}
